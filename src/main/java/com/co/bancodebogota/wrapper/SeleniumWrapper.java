@@ -31,27 +31,22 @@ public class SeleniumWrapper {
 
         return driver.findElement(locator);
     }
-
     public List<WebElement> findElements(By locator){
 
         return driver.findElements(locator);
     }
-
     public String getText(WebElement element){
 
         return element.getText();
     }
-
     public String getText(By locator){
 
         return driver.findElement(locator).getText();
     }
-
     public void insert(String inputText, By locator){
 
         driver.findElement(locator).sendKeys(inputText);
     }
-
     public void click(By locator){
         driver.findElement(locator).click();
     }
