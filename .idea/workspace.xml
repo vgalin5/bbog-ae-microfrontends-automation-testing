@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8af0f08-6466-4f4c-be59-e9fa31f95f47" name="Changes" comment="add git ignore">
+    <list default="true" id="c8af0f08-6466-4f4c-be59-e9fa31f95f47" name="Changes" comment="add primer workflows">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test-integration.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test-integration.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/bancodebogota/wrapper/SeleniumWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/bancodebogota/wrapper/SeleniumWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/bancodebogota/Microfrontends/MicroFrontendCongrats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/bancodebogota/Microfrontends/MicroFrontendCongrats.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +28,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="ae-micros-valentin" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ae-micros-valentin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +89,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.testPrueba">
+  <component name="RunManager" selected="TestNG.TestPrueba">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -160,6 +173,23 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="TestPrueba" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bbog-microfrontend-automated-testing-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.co.bancodebogota.Microfrontends.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.co.bancodebogota.Microfrontends" />
+      <option name="MAIN_CLASS_NAME" value="com.co.bancodebogota.Microfrontends.TestPrueba" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testPrueba" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bbog-microfrontend-automated-testing-master" />
       <option name="PACKAGE_NAME" value="" />
@@ -173,6 +203,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestPrueba" />
         <item itemvalue="TestNG.testPrueba" />
       </list>
     </recent_temporary>
@@ -186,6 +217,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669839125061</updated>
     </task>
+    <task id="LOCAL-00001" summary="add primer workflows">
+      <created>1673543289082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673543289082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +240,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add git ignore" />
+    <MESSAGE value="add primer workflows" />
+    <option name="LAST_COMMIT_MESSAGE" value="add primer workflows" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

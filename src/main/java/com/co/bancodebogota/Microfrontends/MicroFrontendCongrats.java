@@ -13,7 +13,7 @@ public class MicroFrontendCongrats extends SeleniumWrapper {
         super(driver);
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 15), this);
     }
-    public void congratsContinuar() throws InterruptedException {
+    public void congratsContinue() throws InterruptedException {
         if (isDisplayed(confPantCongrats)) {
             Thread.sleep(2000);
             click(btnContinue);
